@@ -8,7 +8,7 @@
 //Arrays , Objects , Function
 
 //in most language they define the datatype of variable
-const scor=100  //just define the variable without type
+const score=100  //just define the variable without type
 
 let name; //value not given means its a undefined value in it
 let name1=undefined
@@ -56,3 +56,46 @@ Return type of variables in JavaScript
        Function  =>  function
        Object  =>  object
        */
+
+
+
+//_______________________________________________________
+       
+//memory
+//stack me (primitive data type store or run) , Heap(no-primitive)
+
+let myname="mohit"
+       
+let anothername  =  myname
+anothername="yooooyo"
+
+//satck me jo bhi datatype work on copy not original
+
+console.log(myname);  //mohit
+console.log(anothername)  //yoooyo
+
+
+//heap me original pe kam
+ 
+let userone = {
+    email: "mohit@gamil.com",
+    name:"mohit"
+}
+
+let usertwo = userone
+
+//changing the value as the original reference change on original not copy in heao
+usertwo.email="gaurav@gamil.com"
+//suprisingly value of email in userone also changes
+//as we give the original toh changes also reflect on it
+
+
+
+
+//to excess in object use with . innervalue
+
+console.log(userone.email);
+console.log(usertwo.email);
+
+
+       
