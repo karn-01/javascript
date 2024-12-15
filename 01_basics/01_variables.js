@@ -22,3 +22,10 @@ cityname="delhi"   //we can sometime make the variable without giving it type
 console.log(cityname)
 
 let cityarea;  //out of this  using the console.log() is undefined 
+
+
+//to print the output we use the 
+//  node parentfilename/filename.js
+
+
+//ex=== node 01_basics/01_variables.js
