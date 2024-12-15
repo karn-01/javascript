@@ -40,7 +40,7 @@ console.log(typeof myobject) //object
 
 //typeof undefined == undefined   and typeof null===object
 
-/*
+/*/
 Return type of variables in JavaScript
 1) Primitive Datatypes
        Number => number
