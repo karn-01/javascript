@@ -100,3 +100,4 @@ console.log("using the splice the original print " , myArr)
 // [ 0, 3, 4, 5, 6 ] arrray hi change the splice manipulate the original
 
 console.log(myn2) //[ 0, 1, 2 ]
+
